@@ -1,0 +1,44 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+  }
+  
+  .left {
+    width: 25%;
+    left: 0;
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .right {
+    right: 0;
+    width: 75%;
+    margin-left: 10px;
+  }
+
+  .form-control{
+    width: 75%;
+    border: 1px solid black;
+}
+.form{
+    margin-left: 50px;
+}
+label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.btn{
+    margin-top: 10px;
+}
+.table{
+    margin: 5px;
+    background-color: rgb(157, 238, 197);
+    margin-top: 5px;
+}
